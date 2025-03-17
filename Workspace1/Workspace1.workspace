@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Workspace1" Database="" Version="10000">
-  <Project Name="Workspace1" Path="Workspace1/Workspace1.project" Active="No"/>
-  <Project Name="Project_check" Path="Project_check/Project_check.project" Active="Yes"/>
+  <Project Name="Project" Path="Workspace1/Workspace1.project" Active="No"/>
+  <Project Name="Project_check" Path="Project_check/Project_check.project" Active="No"/>
+  <Project Name="FirstProgram" Path="FirstProgram/FirstProgram.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
-      <Project Name="Workspace1" ConfigName="Debug"/>
+      <Project Name="Project" ConfigName="Debug"/>
       <Project Name="Project_check" ConfigName="Debug"/>
+      <Project Name="FirstProgram" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
-      <Project Name="Workspace1" ConfigName="Release"/>
+      <Project Name="Project" ConfigName="Release"/>
       <Project Name="Project_check" ConfigName="Release"/>
+      <Project Name="FirstProgram" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

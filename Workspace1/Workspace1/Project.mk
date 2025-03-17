@@ -3,12 +3,12 @@
 ## any manual changes will be erased      
 ##
 ## Release
-ProjectName            :=Project_check
+ProjectName            :=Project
 ConfigurationName      :=Release
 WorkspaceConfiguration :=Release
 WorkspacePath          :=C:/Users/gsamd/Documents/Workspaces/Workspace1
-ProjectPath            :=C:/Users/gsamd/Documents/Workspaces/Workspace1/Project_check
-IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/Project_check
+ProjectPath            :=C:/Users/gsamd/Documents/Workspaces/Workspace1/Workspace1
+IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/Workspace1
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
@@ -96,7 +96,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "C:/Users/gsamd/Documents/Workspaces/Workspace1/Project_check/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "C:/Users/gsamd/Documents/Workspaces/Workspace1/Workspace1/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.c$(DependSuffix): main.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
 

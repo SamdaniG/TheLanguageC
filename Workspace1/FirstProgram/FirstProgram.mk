@@ -3,12 +3,12 @@
 ## any manual changes will be erased      
 ##
 ## Release
-ProjectName            :=Project_check
+ProjectName            :=FirstProgram
 ConfigurationName      :=Release
 WorkspaceConfiguration :=Release
 WorkspacePath          :=C:/Users/gsamd/Documents/Workspaces/Workspace1
-ProjectPath            :=C:/Users/gsamd/Documents/Workspaces/Workspace1/Project_check
-IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/Project_check
+ProjectPath            :=C:/Users/gsamd/Documents/Workspaces/Workspace1/FirstProgram
+IntermediateDirectory  :=../build-$(WorkspaceConfiguration)/FirstProgram
 OutDir                 :=$(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
@@ -64,7 +64,7 @@ AS       := C:/cygwin64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/main.c$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/test.c$(ObjectSuffix) 
 
 
 
@@ -95,13 +95,13 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "C:/Users/gsamd/Documents/Workspaces/Workspace1/Project_check/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/main.c$(DependSuffix): main.c
-	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM main.c
+$(IntermediateDirectory)/test.c$(ObjectSuffix): test.c $(IntermediateDirectory)/test.c$(DependSuffix)
+	$(CC) $(SourceSwitch) "C:/Users/gsamd/Documents/Workspaces/Workspace1/FirstProgram/test.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/test.c$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/test.c$(DependSuffix): test.c
+	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/test.c$(ObjectSuffix) -MF$(IntermediateDirectory)/test.c$(DependSuffix) -MM test.c
 
-$(IntermediateDirectory)/main.c$(PreprocessSuffix): main.c
-	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.c$(PreprocessSuffix) main.c
+$(IntermediateDirectory)/test.c$(PreprocessSuffix): test.c
+	$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/test.c$(PreprocessSuffix) test.c
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)
