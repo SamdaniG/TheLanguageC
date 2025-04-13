@@ -1,4 +1,28 @@
 [{
+		"file":	"C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\WeeklyPay_Calcs\\main.c",
+		"directory":	"C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\WeeklyPay_Calcs",
+		"command":	"C:/cygwin64/bin/gcc.exe -c C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\WeeklyPay_Calcs\\main.c -o C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\WeeklyPay_Calcs\\main.c.o  -DNDEBUG -I. -I.  -O2  -Wall"
+	}, {
+		"file":	"C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\OddEven_IfCondition\\main.c",
+		"directory":	"C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\OddEven_IfCondition",
+		"command":	"C:/cygwin64/bin/gcc.exe -c C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\OddEven_IfCondition\\main.c -o C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\OddEven_IfCondition\\main.c.o  -DNDEBUG -I. -I.  -O2  -Wall"
+	}, {
+		"file":	"C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\WeeklyPay_calcs_v2\\main.c",
+		"directory":	"C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\WeeklyPay_calcs_v2",
+		"command":	"C:/cygwin64/bin/gcc.exe -c C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\WeeklyPay_calcs_v2\\main.c -o C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\WeeklyPay_calcs_v2\\main.c.o  -DNDEBUG -I. -I.  -O2  -Wall"
+	}, {
+		"file":	"C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\SizeOf_Examples\\main.c",
+		"directory":	"C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\SizeOf_Examples",
+		"command":	"C:/cygwin64/bin/gcc.exe -c C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\SizeOf_Examples\\main.c -o C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\SizeOf_Examples\\main.c.o  -DNDEBUG -I. -I.  -O2  -Wall"
+	}, {
+		"file":	"C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\Rectange_challenge_44\\main.c",
+		"directory":	"C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\Rectange_challenge_44",
+		"command":	"C:/cygwin64/bin/gcc.exe -c C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\Rectange_challenge_44\\main.c -o C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\Rectange_challenge_44\\main.c.o  -DNDEBUG -I. -I.  -O2  -Wall"
+	}, {
+		"file":	"C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\declaration_variables\\main.c",
+		"directory":	"C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\declaration_variables",
+		"command":	"C:/cygwin64/bin/gcc.exe -c C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\declaration_variables\\main.c -o C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\declaration_variables\\main.c.o  -DNDEBUG -I. -I.  -O2  -Wall"
+	}, {
 		"file":	"C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\FirstProgram\\test.c",
 		"directory":	"C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\FirstProgram",
 		"command":	"C:/cygwin64/bin/gcc.exe -c C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\FirstProgram\\test.c -o C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\FirstProgram\\test.c.o  -DNDEBUG -I. -I.  -O2  -Wall"
@@ -6,6 +30,10 @@
 		"file":	"C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\Project_check\\main.c",
 		"directory":	"C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\Project_check",
 		"command":	"C:/cygwin64/bin/gcc.exe -c C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\Project_check\\main.c -o C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\Project_check\\main.c.o  -DNDEBUG -I. -I.  -O2  -Wall"
+	}, {
+		"file":	"C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\argc_and_argv_cli\\main.c",
+		"directory":	"C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\argc_and_argv_cli",
+		"command":	"C:/cygwin64/bin/gcc.exe -c C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\argc_and_argv_cli\\main.c -o C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\argc_and_argv_cli\\main.c.o  -DNDEBUG -I. -I.  -O2  -Wall"
 	}, {
 		"file":	"C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\Workspace1\\main.c",
 		"directory":	"C:\\Users\\gsamd\\Documents\\Workspaces\\Workspace1\\Workspace1",

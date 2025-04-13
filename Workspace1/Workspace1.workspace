@@ -2,19 +2,43 @@
 <CodeLite_Workspace Name="Workspace1" Database="" Version="10000">
   <Project Name="Project" Path="Workspace1/Workspace1.project" Active="No"/>
   <Project Name="Project_check" Path="Project_check/Project_check.project" Active="No"/>
-  <Project Name="FirstProgram" Path="FirstProgram/FirstProgram.project" Active="Yes"/>
+  <Project Name="HelloWorld" Path="FirstProgram/FirstProgram.project" Active="No"/>
+  <Project Name="enum_declaration" Path="declaration_variables/declaration_variables.project" Active="No"/>
+  <Project Name="Rectange_challenge_44" Path="Rectange_challenge_44/Rectange_challenge_44.project" Active="No"/>
+  <Project Name="argc_and_argv_cli" Path="argc_and_argv_cli/argc_and_argv_cli.project" Active="No"/>
+  <Project Name="minutes_to_years" Path="Workspace1/Workspace1.project" Active="No"/>
+  <Project Name="SizeOf_Examples" Path="SizeOf_Examples/SizeOf_Examples.project" Active="No"/>
+  <Project Name="OddEven_IfCondition" Path="OddEven_IfCondition/OddEven_IfCondition.project" Active="No"/>
+  <Project Name="WeeklyPay_Calcs" Path="WeeklyPay_Calcs/WeeklyPay_Calcs.project" Active="Yes"/>
+  <Project Name="WeeklyPay_calcs_v2" Path="WeeklyPay_calcs_v2/WeeklyPay_calcs_v2.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="Project" ConfigName="Debug"/>
       <Project Name="Project_check" ConfigName="Debug"/>
-      <Project Name="FirstProgram" ConfigName="Debug"/>
+      <Project Name="HelloWorld" ConfigName="Debug"/>
+      <Project Name="enum_declaration" ConfigName="Debug"/>
+      <Project Name="Rectange_challenge_44" ConfigName="Debug"/>
+      <Project Name="argc_and_argv_cli" ConfigName="Debug"/>
+      <Project Name="minutes_to_years" ConfigName="Debug"/>
+      <Project Name="SizeOf_Examples" ConfigName="Debug"/>
+      <Project Name="OddEven_IfCondition" ConfigName="Debug"/>
+      <Project Name="WeeklyPay_Calcs" ConfigName="Debug"/>
+      <Project Name="WeeklyPay_calcs_v2" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="Project" ConfigName="Release"/>
       <Project Name="Project_check" ConfigName="Release"/>
-      <Project Name="FirstProgram" ConfigName="Release"/>
+      <Project Name="HelloWorld" ConfigName="Release"/>
+      <Project Name="enum_declaration" ConfigName="Release"/>
+      <Project Name="Rectange_challenge_44" ConfigName="Release"/>
+      <Project Name="argc_and_argv_cli" ConfigName="Release"/>
+      <Project Name="minutes_to_years" ConfigName="Release"/>
+      <Project Name="SizeOf_Examples" ConfigName="Release"/>
+      <Project Name="OddEven_IfCondition" ConfigName="Release"/>
+      <Project Name="WeeklyPay_Calcs" ConfigName="Release"/>
+      <Project Name="WeeklyPay_calcs_v2" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
